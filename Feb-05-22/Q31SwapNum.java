@@ -1,5 +1,3 @@
-package basic75programs;
-
 public class Q31SwapNum {
     public static void main(String[] args) {
         int a = 22;

@@ -1,6 +1,4 @@
-package basic75programs;
-
-public class Q7 {
+public class Q07 {
     public static void main(String[] args) {
         char character7 = '7';
         int number7 = (int) character7;

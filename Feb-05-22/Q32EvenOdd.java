@@ -1,5 +1,3 @@
-package basic75programs;
-
 public class Q32EvenOdd {
     public static void main(String[] args) {
         int number = 51;

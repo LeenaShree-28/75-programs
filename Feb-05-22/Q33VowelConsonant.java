@@ -1,5 +1,3 @@
-package basic75programs;
-
 public class Q33VowelConsonant {
     public static void main(String[] args) {
         char letter = 'e';

@@ -1,5 +1,3 @@
-package basic75programs;
-
 public class Q21 {
     public static void main(String[] args) {
         int a = 5;

@@ -1,5 +1,3 @@
-package basic75programs;
-
 public class Q30LongKeyword {
     public static void main(String[] args) {
         long num = 15L;

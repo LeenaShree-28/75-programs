@@ -1,5 +1,3 @@
-package basic75programs;
-
 public class Q20PrefixPostfix {
     public static void main(String[] args) {
         int num = 5;

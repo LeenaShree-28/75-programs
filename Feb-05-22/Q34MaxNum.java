@@ -1,5 +1,3 @@
-package basic75programs;
-
 public class Q34MaxNum {
     public static void main(String[] args) {
         int x = 44;

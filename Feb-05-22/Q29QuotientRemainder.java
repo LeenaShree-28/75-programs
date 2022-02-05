@@ -1,6 +1,4 @@
-package basic75programs;
-
-import java.util.*;
+import java.util.Scanner;
 
 public class Q29QuotientRemainder {
     public static void main(String[] args) {
