@@ -7,7 +7,7 @@ public class Q51ArmstrongTwoIntervals{
         int num1 = s.nextInt();
         System.out.println("Enter the ending number : ");
         int num2 = s.nextInt();
-        System.out.println("Amstrong Numbers between " + num1 + " and " + num2 + " : ");
+        System.out.println("Armstrong Numbers between " + num1 + " and " + num2 + " : ");
         for(int i=num1;i<=num2;i++){
             int temp = i;
             int total = 0;

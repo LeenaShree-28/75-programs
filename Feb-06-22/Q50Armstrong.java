@@ -10,9 +10,9 @@ public class Q50Armstrong {
             num /= 10;
         }
         if (total == temp)
-            System.out.println(temp + " is Amstrong number.");
+            System.out.println(temp + " is Armstrong number.");
         else
-            System.out.println(temp + " is not a Amstrong number.");
+            System.out.println(temp + " is not a Armstrong number.");
     }
 
     static int countDigit(int n) {
