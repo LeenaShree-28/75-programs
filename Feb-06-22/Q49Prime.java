@@ -1,8 +1,11 @@
 public class Q49Prime {
     public static void main(String[] args) {
-        int num = 100;
+        int num = 2;
         int m = (int) Math.sqrt(num) + 1;
         boolean flag = false;
+        if (num == 2){
+            System.out.println(num + " is prime number");
+        }    
         if (num == 0 || num == 1) {
             System.out.println(num + " is not prime number");
         } else {

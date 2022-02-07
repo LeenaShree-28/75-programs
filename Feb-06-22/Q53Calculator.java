@@ -9,22 +9,22 @@ public class Q53Calculator {
         char operator = s.next().charAt(0);
         System.out.println("Enter operand 2 : ");
         int b = s.nextInt();
-        switch(operator){
+        switch (operator) {
             case '+':
-                System.out.println(a + " + " + b + " = " + (a+b));
+                System.out.println(a + " + " + b + " = " + (a + b));
                 break;
             case '-':
-                System.out.println(a + " - " + b + " = " + (a-b));
+                System.out.println(a + " - " + b + " = " + (a - b));
                 break;
             case '*':
-                System.out.println(a + " * " + b + " = " + (a*b));
+                System.out.println(a + " * " + b + " = " + (a * b));
                 break;
             case '/':
-                System.out.println(a + " / " + b + " = " + ((double)a / (double)b));
+                System.out.println(a + " / " + b + " = " + ((double) a / (double) b));
                 break;
             default:
                 System.out.println("Invalid Operator.");
-            
+
         }
         s.close();
     }

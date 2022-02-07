@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q51ArmstrongTwoIntervals{
+public class Q51ArmstrongTwoIntervals {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the starting number : ");
@@ -8,7 +8,7 @@ public class Q51ArmstrongTwoIntervals{
         System.out.println("Enter the ending number : ");
         int num2 = s.nextInt();
         System.out.println("Armstrong Numbers between " + num1 + " and " + num2 + " : ");
-        for(int i=num1;i<=num2;i++){
+        for (int i = num1; i <= num2; i++) {
             int temp = i;
             int total = 0;
             int count = countDigit(i);
@@ -17,7 +17,8 @@ public class Q51ArmstrongTwoIntervals{
                 total += Math.pow(digit, count);
                 temp /= 10;
             }
-            if(total==i) System.out.println(i);
+            if (total == i)
+                System.out.println(i);
         }
         s.close();
     }
