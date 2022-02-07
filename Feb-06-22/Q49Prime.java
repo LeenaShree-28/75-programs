@@ -1,6 +1,6 @@
 public class Q49Prime {
     public static void main(String[] args) {
-        int num = 2;
+        int num = 19;
         int m = (int) Math.sqrt(num) + 1;
         boolean flag = false;
         if (num == 2){

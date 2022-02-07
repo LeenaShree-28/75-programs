@@ -27,7 +27,7 @@ public class Q55PrimeOrArmstrong {
             for (int i = 2; i <= m; i++) {
                 if (num % i == 0) {
                     flag = true;
-                    break;
+                    return false;
                 }
             }
             if (flag == false) {
