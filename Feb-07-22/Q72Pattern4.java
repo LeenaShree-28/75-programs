@@ -15,7 +15,7 @@ public class Q72Pattern4 {
                 System.out.print(num + " ");
                 num++;
             }
-            n = k - 1;
+            n = i ;
             for (m = 1; m < i; m++) {
                 System.out.print(--n + " ");
             }
